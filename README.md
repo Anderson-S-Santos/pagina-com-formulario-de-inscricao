@@ -22,7 +22,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar e linkar arquivo reset.css
 - [X] Importar as fontes
 - [X] Criar variáveis com as cores 
-- [ ] Adicionar imagem de brackground
+- [X] Adicionar imagem de brackground
 - [ ] Adicionar a cor de backgfround
 - [ ] Estilizar o parágrafo principal
 - [ ] Estilizar o parágrafo secundário
