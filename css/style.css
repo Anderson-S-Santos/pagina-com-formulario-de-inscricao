@@ -1,3 +1,11 @@
 /* Importando a fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+:root {
+    --vermelho: hsl(0, 100%, 74%);
+    --verde: hsl(154, 59%, 51%);
+    --azul: hsl(248, 32%, 49%);
+    --azul-escuro:  hsl(249, 10%, 26%);
+    --azul-acicentado: hsl(246, 25%, 77%);
+}
+
