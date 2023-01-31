@@ -23,7 +23,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Importar as fontes
 - [X] Criar variáveis com as cores 
 - [X] Adicionar imagem de brackground
-- [ ] Adicionar a cor de backgfround
+- [X] Adicionar a cor de backgfround
 - [ ] Estilizar o parágrafo principal
 - [ ] Estilizar o parágrafo secundário
 - [ ] Estilizar botão de teste grátis

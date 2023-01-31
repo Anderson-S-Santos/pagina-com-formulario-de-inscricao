@@ -11,4 +11,5 @@
 
 body {
     background-image: url(../imagens/bg-intro-desktop.png);
+    background-color: var(--vermelho);
 }
