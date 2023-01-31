@@ -19,6 +19,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 
 ### CSS
 
+- [ ] Criar e linkar arquivo reset.css
 - [ ] Importar as fontes
 - [ ] Adicionar as fontes
 - [ ] Adicionar imagem de brackground
