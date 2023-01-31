@@ -7,8 +7,8 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 ### HTML
 
 - [X] Criar estrutura HTML
-- [ ] Criar pastas css e js
-- [ ] Criar arquivo style.css e index.js
+- [X] Criar pastas css e js
+- [X] Criar arquivo style.css e main.js
 - [ ] Adicionar o título da página
 - [ ] Adicionar parágrafo principal
 - [ ] Adicionar parágrafo secundário
