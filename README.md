@@ -9,7 +9,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar estrutura HTML
 - [X] Criar pastas css e js
 - [X] Criar arquivo style.css e main.js
-- [ ] Adicionar o título da página
+- [X] Adicionar o título da página
 - [ ] Adicionar parágrafo principal
 - [ ] Adicionar parágrafo secundário
 - [ ] Criar botão de teste grátis
