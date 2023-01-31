@@ -10,12 +10,12 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar pastas css e js
 - [X] Criar arquivo style.css e main.js
 - [X] Adicionar o título da página
-- [ ] Adicionar parágrafo principal
-- [ ] Adicionar parágrafo secundário
-- [ ] Criar botão de teste grátis
-- [ ] Criar formulário 
-- [ ] Criar botão de enviar do formulário
-- [ ] Adicionar mensagem abaixo do botão
+- [X] Adicionar parágrafo principal
+- [X] Adicionar parágrafo secundário
+- [X] Criar botão de teste grátis
+- [X] Criar formulário 
+- [X] Criar botão de enviar do formulário
+- [X] Adicionar mensagem abaixo do botão
 
 ### CSS
 
