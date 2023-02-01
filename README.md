@@ -29,6 +29,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Estilizar botão de teste grátis
 - [X] Estilizar o formulário
 - [X] Estilizar o botão de enviar
+- [X] Adicionar flexbox ou grid para posicionar os dois elementos da página um ao lado do outro no centro
 - [ ] Adicionar imagem de erro nos inputs 
 
 ### Javascript
