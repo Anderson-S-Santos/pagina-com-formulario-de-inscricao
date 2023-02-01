@@ -6,6 +6,7 @@
     --verde: hsl(154, 59%, 51%);
     --background-botao-teste-gratis: hsl(248, 32%, 49%);
     --sombreamento-botao-teste-gratis: hsl(359.5,63%,62.9%);
+    --sombreamento-botao-enviar: hsl(154.4,43.1%,46.9%);
     --azul-escuro:  hsl(249, 10%, 26%);
     --azul-acicentado: hsl(246, 25%, 77%);
     --branco: hsl(0,0%,100%);
@@ -35,15 +36,76 @@ body {
     background-color: var(--background-botao-teste-gratis);
     padding: 1em 2em;
     border-radius: 0.5em;
+    width: 32vw;
     color: var(--branco-claro);
     font-size: 1em;
-    border-bottom: 3px solid var(--sombreamento-botao-teste-gratis);
+    border-bottom: 7.5px solid var(--sombreamento-botao-teste-gratis);
     font-family: 'Poppins', sans-serif;
-    cursor: pointer;
+    user-select: none;
 }
 
 .destaqueTesteGratis {
     font-weight: 500;
     color: var(--branco);
     font-size: 1.1em;
+}
+
+#formulario {
+    background-color: var(--branco);
+    width: 30vw;
+    margin-top: 2em;
+    padding: 2em 1.1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 7px solid var(--sombreamento-botao-teste-gratis);
+}
+
+/* .erroFormulario {
+    background: url(../imagens/icon-error.svg) no-repeat 450px 17px;
+} */
+
+#inputPrimeiroNome {
+    margin-top: 1.3em;
+}
+
+.camposFormulario {
+    padding: 1em 2em;
+    width: 24vw;
+    margin-bottom: 2.5em;
+    font-size: 1em;
+    border: 1px solid var(--azul-acicentado);
+    border-radius: 0.3em;
+}
+
+#enviar {
+    background-color: var(--verde);
+    border: none;
+    padding: 1.5em 2em;
+    width: 28vw;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: 3px solid var(--sombreamento-botao-enviar);
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#enviar:hover {
+    background-color: hsla(154, 59%, 51%, 0.7);
+}
+
+.paragrafoFormulario {
+    font-size: 0.8em;
+    color: var(--azul-acicentado);
+}
+
+.termosServicos {
+    color: var(--vermelho);
+    font-weight: 700;
 }
