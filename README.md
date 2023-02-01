@@ -24,7 +24,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar variáveis com as cores 
 - [X] Adicionar imagem de brackground
 - [X] Adicionar a cor de backgfround
-- [ ] Estilizar o parágrafo principal
+- [X] Estilizar o parágrafo principal
 - [ ] Estilizar o parágrafo secundário
 - [ ] Estilizar botão de teste grátis
 - [ ] Estilizar o formulário

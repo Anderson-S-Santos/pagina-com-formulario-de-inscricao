@@ -7,9 +7,17 @@
     --azul: hsl(248, 32%, 49%);
     --azul-escuro:  hsl(249, 10%, 26%);
     --azul-acicentado: hsl(246, 25%, 77%);
+    --branco: hsl(0,0%,100%);
 }
 
 body {
     background-image: url(../imagens/bg-intro-desktop.png);
     background-color: var(--vermelho);
+    font-family: 'Poppins', sans-serif;
+}
+
+.principal {
+    color: var(--branco);
+    font-size: 3em;
+    font-weight: 700;
 }
