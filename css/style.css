@@ -8,6 +8,7 @@
     --azul-escuro:  hsl(249, 10%, 26%);
     --azul-acicentado: hsl(246, 25%, 77%);
     --branco: hsl(0,0%,100%);
+    --paragrafo-secundario: hsl(1.3,100%,91%);
 }
 
 body {
@@ -20,4 +21,9 @@ body {
     color: var(--branco);
     font-size: 3em;
     font-weight: 700;
+}
+
+.secundario {
+    font-weight: 500;
+    color: var(--paragrafo-secundario);
 }
