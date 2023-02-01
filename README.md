@@ -28,8 +28,8 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Estilizar o parágrafo secundário
 - [X] Estilizar botão de teste grátis
 - [X] Estilizar o formulário
+- [X] Estilizar o botão de enviar
 - [ ] Adicionar imagem de erro nos inputs 
-- [ ] Estilizar o botão de enviar
 
 ### Javascript
 
