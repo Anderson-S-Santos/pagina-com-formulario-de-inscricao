@@ -36,7 +36,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 
 - [X] Criar variáveis para os inputs
 - [X] Selecionar os inputs através do id
-- [ ] Adicionar um evento para saber quando o usuário clicou em enviar
-- [ ] Criar lógica para validação dos campos se estiverem em branco
+- [X] Adicionar um evento para saber quando o usuário clicou em enviar
+- [ ] Criar lógica para validação dos campos se não estiverem preenchidos 
 - [ ] Criar lógica para validação do email 
 - [ ] Criar lógica para validação da senha
