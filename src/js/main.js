@@ -26,8 +26,8 @@ formulario.addEventListener('submit', (event) => {
     }
 
     //Verifica se o campo senha está preenchido e se é válido
-    if (!validaSenha(inputSenha.valeu, 8)) {
-        alert('O campo Senha não está preenchido ou não é uma senha válida!')
+    if (!validaSenha(inputSenha.value, 8)) {
+        alert('Senha válida! A senha deve ter no mínimo 8 dígitos.')
         return
     }
 

@@ -16,6 +16,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar formulário 
 - [X] Criar botão de enviar do formulário
 - [X] Adicionar mensagem abaixo do botão
+- [X] Adicionando preenchimento obrigatório(required) nos campos do formulário
 
 ### CSS
 
@@ -30,7 +31,8 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Estilizar o formulário
 - [X] Estilizar o botão de enviar
 - [X] Adicionar flexbox ou grid para posicionar os dois elementos da página um ao lado do outro no centro
-- [ ] Adicionar imagem de erro nos inputs 
+- [ ] Adicionar imagem de erro nos inputs
+- [ ] Adicionar bordas vermelhas caso os campos dos inputs sejam inválidos e verde se forem válidas 
 
 ### Javascript
 

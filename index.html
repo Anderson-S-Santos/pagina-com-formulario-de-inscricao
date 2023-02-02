@@ -36,16 +36,16 @@
             <!-- Ínicio do Formulário -->
             <form action="" id="formulario">
                 <label for="nome"><input type="text" placeholder="Primeiro nome" id="inputPrimeiroNome"
-                        class="camposFormulario"></label>
+                        class="camposFormulario" minlength="2" required oninvalid="this.setCustomValidity('Preencha seu Primeiro Nome')" onchange="try{setCustomValidity('')}catch(e){}"></label>
 
                 <label for="sobrenome"><input type="text" placeholder="Último nome" id="inputUltimoNome"
-                        class="camposFormulario"></label>
+                        class="camposFormulario" minlength="2" required oninvalid="this.setCustomValidity('Preencha seu Ultimo Nome')" onchange="try{setCustomValidity('')}catch(e){}"></label>
 
                 <label for="email"><input type="email" placeholder="Endereço de Email" id="inputEmail"
-                        class="camposFormulario"></label>
+                        class="camposFormulario" required oninvalid="this.setCustomValidity('Preencha seu Email')" onchange="try{setCustomValidity('')}catch(e){}"></label>
 
                 <label for="senha"><input type="password" placeholder="Senha com no mínimo 8 dígitos" id="inputSenha"
-                        class="camposFormulario"></label>
+                        class="camposFormulario" required oninvalid="this.setCustomValidity('Preencha sua Senha')" onchange="try{setCustomValidity('')}catch(e){}"></label>
 
                 <button type="submit" id="enviar">Reivindique seu teste grátis</button>
 
