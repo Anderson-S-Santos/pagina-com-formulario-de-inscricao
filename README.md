@@ -34,8 +34,8 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 
 ### Javascript
 
-- [ ] Criar variáveis para os inputs
-- [ ] Selecionar os inputs através do id
+- [X] Criar variáveis para os inputs
+- [X] Selecionar os inputs através do id
 - [ ] Adicionar um evento para saber quando o usuário clicou em enviar
 - [ ] Criar lógica para validação dos campos se estiverem em branco
 - [ ] Criar lógica para validação do email 
