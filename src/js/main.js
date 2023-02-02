@@ -60,3 +60,7 @@ function validaSenha(senha, minDigitos) {
     //Senha inválida
     return false
 }
+
+// function dadosRecebidos() {
+//     window.location.href = "teste.html"
+// }
