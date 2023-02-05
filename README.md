@@ -33,7 +33,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Estilizar o botão de enviar
 - [X] Adicionar flexbox ou grid para posicionar os dois elementos da página um ao lado do outro no centro
 - [ ] Adicionar imagem de erro nos inputs
-- [ ] Adicionar bordas vermelhas caso os campos dos inputs sejam inválidos e verde se forem válidas 
+- [X] Adicionar bordas vermelhas caso os campos dos inputs sejam inválidos e verde se forem válidas 
 
 ### Javascript
 

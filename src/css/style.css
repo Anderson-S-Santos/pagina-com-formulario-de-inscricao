@@ -85,15 +85,21 @@ body {
     box-shadow: 0px 10px 5px var(--sombreamento-botao-teste-gratis);
 }
 
-/* .erroFormulario {
-    background: url(../imagens/icon-error.svg) no-repeat 450px 17px;
-} */
+.spanRequired {
+    display: none;
+    font: 12px;
+    margin: 3px 0 0 1px;
+    font-size: 15px;
+    margin: -35px 0px 15px 1px;
+    color: red;
+}
 
 #inputPrimeiroNome {
     margin-top: 1.3em;
 }
 
-.camposFormulario {
+
+.inputs {
     padding: 1em 2em;
     width: 24vw;
     margin-bottom: 2.5em;

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
 
-    <script src="./src/js/main.js" defer></script> 
+    <script src="./src/js/main.js" defer></script>
 </head>
 
 <body>
@@ -34,19 +34,32 @@
             </button>
 
             <!-- Ínicio do Formulário -->
-            <form action="" id="formulario">
-                <label for="nome"><input type="text" placeholder="Primeiro nome" id="inputPrimeiroNome"
-                        class="camposFormulario" minlength="2" required oninvalid="this.setCustomValidity('Preencha seu Primeiro Nome')" onchange="try{setCustomValidity('')}catch(e){}"></label>
+            <form id="formulario">
 
-                <label for="sobrenome"><input type="text" placeholder="Último nome" id="inputUltimoNome"
-                        class="camposFormulario" minlength="2" required oninvalid="this.setCustomValidity('Preencha seu Ultimo Nome')" onchange="try{setCustomValidity('')}catch(e){}"></label>
+                <div>
+                    <input type="text" placeholder="Primeiro nome" id="inputPrimeiroNome"
+                        class="inputs required" oninput="validaPrimeiroNome()">
+                    <span class="spanRequired">O campo Primeiro Nome deve ter no mínimo 03 caracteres</span>
+                </div>
 
-                <label for="email"><input type="email" placeholder="Endereço de Email" id="inputEmail"
-                        class="camposFormulario" required oninvalid="this.setCustomValidity('Preencha seu Email')" onchange="try{setCustomValidity('')}catch(e){}"></label>
+                <div>
+                    <input type="text" placeholder="Último nome" id="inputUltimoNome" class="inputs required" oninput="validaUltimoNome()">
+                    <span class="spanRequired">O campo Ultimo Nome deve ter no mínimo 03 caracteres</span>
+                </div>
 
-                <label for="senha"><input type="password" placeholder="Senha com no mínimo 8 dígitos" id="inputSenha"
-                        class="camposFormulario" required oninvalid="this.setCustomValidity('Preencha sua Senha')" onchange="try{setCustomValidity('')}catch(e){}"></label>
-                 <!--Metódo onclick="dadosRecebidos()"  -->
+                <div>
+                    <input type="email" placeholder="Endereço de Email" id="inputEmail"
+                        class="inputs required" oninput="validaEmail()">
+                    <span class="spanRequired">Email inválido</span>
+                </div>
+
+                <div>
+                    <input type="password" placeholder="Senha com no mínimo 8 dígitos" id="inputSenha"
+                        class="inputs required" oninput="validaSenha()">
+                    <span class="spanRequired">A senha deve ter no mínimo 8 dígitos</span>
+                </div>
+
+                <!--Metódo onclick="dadosRecebidos()"  -->
                 <button type="submit" id="enviar">Reivindique seu teste grátis</button>
 
                 <p class="paragrafoFormulario">
