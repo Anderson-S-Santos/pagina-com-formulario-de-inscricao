@@ -35,6 +35,7 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [ ] Adicionar imagem de erro nos inputs
 - [X] Adicionar bordas vermelhas caso os campos dos inputs sejam inválidos e verde se forem válidas 
 - [X] Adicionar outline aos campos de input do formulário
+- [x] Adicionar estilo a caixa que contém a mensagem de sucesso ao enviar
 
 ### Javascript
 

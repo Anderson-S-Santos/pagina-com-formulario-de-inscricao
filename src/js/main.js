@@ -18,20 +18,25 @@ formulario.addEventListener('submit', (event) => {
     validaSenha();
 
    
-        if (campos[0].value.length >= 3 && campos[1].value.length >=3 && emailRegex !== true &&campos[3].value.length >= 8) {
-            formulario.style.display = 'none'; 
-            msg()
-        } 
-    
+        // if (msg !== true) {
+        //     formulario.style.display = 'none'; 
+        //     msg()
+        // } 
+    msg()
 
     // formulario.submit()
 });
 
 //Chama a mensagem de Sucesso
 function msg(message) {
-    if (campos[0].value.length >= 3) {
+    if (campos[0].value.length >= 3 && campos[1].value.length >=3 && emailRegex !== true &&campos[3].value.length >= 8) {
+        console.log('mensagem')
         msgSucesso.style.display = 'block'
-}}
+        formulario.style.display = 'none';
+}else {
+    return
+}
+}
 
 //Exibi uma borda vermelha e um texto caso o campo esteja inválido
 function exibirErro(index) {
