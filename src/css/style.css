@@ -20,6 +20,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.msgSucesso {
+    display: none;
+}
+
 .container {
     display: flex;
     justify-content: center;

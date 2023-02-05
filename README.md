@@ -44,5 +44,4 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar lógica para validação dos campos se não estiverem preenchidos 
 - [X] Criar lógica para validação do email 
 - [X] Criar lógica para validação da senha
-- [ ] Adicionar página para redirecionamento da página ao enviar o formulário
-- [ ] Criar função para redirecionamento da página
+- [X] Criando lógica para validção do formulário e exibição de mensagem de sucesso na tela

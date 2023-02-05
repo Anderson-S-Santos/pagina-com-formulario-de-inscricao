@@ -7,6 +7,7 @@ const inputSenha = document.querySelector('#inputSenha')
 const campos = document.querySelectorAll('.required')
 const spans = document.querySelectorAll('.spanRequired')
 const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/
+const msgSucesso = document.querySelector('.msgSucesso')
 
 formulario.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -16,9 +17,21 @@ formulario.addEventListener('submit', (event) => {
     validaEmail();
     validaSenha();
 
+   
+        if (campos[0].value.length >= 3 && campos[1].value.length >=3 && emailRegex !== true &&campos[3].value.length >= 8) {
+            formulario.style.display = 'none'; 
+            msg()
+        } 
+    
+
     // formulario.submit()
 });
 
+//Chama a mensagem de Sucesso
+function msg(message) {
+    if (campos[0].value.length >= 3) {
+        msgSucesso.style.display = 'block'
+}}
 
 //Exibi uma borda vermelha e um texto caso o campo esteja inválido
 function exibirErro(index) {
