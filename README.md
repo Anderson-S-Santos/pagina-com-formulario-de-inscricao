@@ -1,5 +1,10 @@
 # pagina-com-formulario-de-inscricao
 
+## Descrição
+Projeto desenvolvido durante a mentoria: Conquiste sua vaga. Com o intuito de avaliar meu nível de conhecimento atual. 
+O desenvolvimento foi realizado utilizando as tecnologias: HTML, CSS e JAVASCRIPT. 
+A validação dos campos foram realizadas utilizando Javascript. Assim como a exibição da mensagem de sucesso ao enviar o formulário. 
+
 ## Objetivo
 Desenvolver uma página com um formulário de inscrição que faça a validação dos campos em Javascript de acordo com as condições específicadas no projeto. 
 
