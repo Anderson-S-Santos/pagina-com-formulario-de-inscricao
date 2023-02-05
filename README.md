@@ -32,7 +32,6 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Estilizar o formulário
 - [X] Estilizar o botão de enviar
 - [X] Adicionar flexbox ou grid para posicionar os dois elementos da página um ao lado do outro no centro
-- [ ] Adicionar imagem de erro nos inputs
 - [X] Adicionar bordas vermelhas caso os campos dos inputs sejam inválidos e verde se forem válidas 
 - [X] Adicionar outline aos campos de input do formulário
 - [x] Adicionar estilo a caixa que contém a mensagem de sucesso ao enviar
@@ -46,3 +45,8 @@ Desenvolver uma página com um formulário que faça a validação dos campos ca
 - [X] Criar lógica para validação do email 
 - [X] Criar lógica para validação da senha
 - [X] Criando lógica para validção do formulário e exibição de mensagem de sucesso na tela
+
+
+### Extras 
+
+- [ ] Adicionar imagem de erro nos inputs
