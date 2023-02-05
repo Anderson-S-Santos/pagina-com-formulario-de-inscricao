@@ -9,9 +9,12 @@ A validação dos campos foram realizadas utilizando Javascript. Assim como a ex
 Desenvolver uma página com um formulário de inscrição que faça a validação dos campos em Javascript de acordo com as condições específicadas no projeto. 
 
 ## Tecnologias
-- HTML
-- CSS 
-- JAVASCRIPT
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div>
+
 
 ### Tarefas 
 
