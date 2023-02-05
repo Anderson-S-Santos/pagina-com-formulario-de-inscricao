@@ -1,8 +1,7 @@
 # pagina-com-formulario-de-inscricao
 
 ## Objetivo
-Desenvolver uma página com um formulário que faça a validação dos campos caso estejam vazios, ou, caso o formato do email sejá inválido. 
-
+Desenvolver uma página com um formulário de inscrição que faça a validação dos campos em Javascript de acordo com as condições específicadas no projeto. 
 
 ### Tarefas 
 
