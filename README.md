@@ -8,6 +8,11 @@ A validação dos campos foram realizadas utilizando Javascript. Assim como a ex
 ## Objetivo
 Desenvolver uma página com um formulário de inscrição que faça a validação dos campos em Javascript de acordo com as condições específicadas no projeto. 
 
+## Tecnologias
+- HTML
+- CSS 
+- JAVASCRIPT
+
 ### Tarefas 
 
 ### HTML
