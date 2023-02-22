@@ -8,6 +8,21 @@ A validação dos campos foram realizadas utilizando Javascript. Assim como a ex
 ## Objetivo
 Desenvolver uma página com um formulário de inscrição que faça a validação dos campos em Javascript de acordo com as condições específicadas no projeto. 
 
+## Preview 
+
+<p align="center">
+	<img width="700" height="400" src="src/imagens/print0-post.png">
+</p>
+<p align="center">
+	<img width="700" height="400" src="src/imagens/print1-post.png">
+</p>
+<p align="center">
+	<img width="700" height="400" src="src/imagens/print2-post.png">
+</p>
+<p align="center">
+	<img width="700" height="400" src="src/imagens/print3-post.png">
+</p>
+
 ## Tecnologias
 <div style="display: inline_block"><br>
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -64,6 +79,10 @@ Desenvolver uma página com um formulário de inscrição que faça a validaçã
 ### Extras 
 
 - [ ] Adicionar imagem de erro nos inputs
+- [ ] 
 
 
 ## Link do deploy: https://pagina-com-formulario-de-inscricao.vercel.app/
+
+# Autor 
+## Anderson Silva
